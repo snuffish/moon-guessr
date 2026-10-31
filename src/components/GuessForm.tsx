@@ -16,6 +16,7 @@ export function GuessForm({ onSubmit }: { onSubmit: (guess: number) => void }) {
       <input
         id="guess-number"
         type="number"
+        inputMode="numeric"
         min={0}
         max={100}
         step={1}

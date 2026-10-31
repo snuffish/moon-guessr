@@ -11,7 +11,7 @@ export function MoonDisc({ phase, waxing }: { phase: number; waxing: boolean }) 
     lit ? sweepLit : 1 - sweepLit
   } ${r} 0 Z`
   return (
-    <svg viewBox="0 0 100 100" width="160" height="160" role="img" aria-label="Current moon">
+    <svg className="moon" viewBox="0 0 100 100" width="160" height="160" role="img" aria-label="Current moon">
       <circle cx={r} cy={r} r={r} fill="#1b1f2a" />
       <path d={d} fill="#f3efe0" />
     </svg>
