@@ -1,0 +1,9 @@
+:root { color-scheme: dark; font-family: system-ui, sans-serif; }
+body { margin: 0; background: #0b0e17; color: #e8e8ee; }
+main { max-width: 28rem; margin: 0 auto; padding: 2rem 1rem; text-align: center; }
+form { display: grid; gap: 1rem; }
+input[type='number'] { font-size: 1.5rem; text-align: center; padding: 0.4rem; }
+input[type='range'] { width: 100%; }
+button { font-size: 1.1rem; padding: 0.6rem 1.2rem; cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: 0.5; }
+[role='alert'] { color: #ff8a8a; margin: 0; }
